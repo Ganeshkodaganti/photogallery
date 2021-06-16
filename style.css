@@ -1,0 +1,38 @@
+.body{   
+    
+    font-family:"Baloo Tamma 2", cursive;
+    background-image: url("images/15.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*main heading font*/
+.m-heading{
+    font-family: "Roboto Slab",serif;
+}
+
+.navigation-link{
+    border:2px solid transparent;
+    text-decoration: none;
+}
+.navigation-link:hover{
+    
+    border-bottom:2px solid yellow;
+    transition:0.5s ease;
+}
+.main-container{
+    min-height:100vh;
+    padding-top:5rem;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.main_row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.main_row h1{
+    font-size:5rem;
+}
